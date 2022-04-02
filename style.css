@@ -1,0 +1,74 @@
+#grad {
+  background-image: linear-gradient(to bottom right, #87CEEB, #0000CD);
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: STKaiti;
+  font-size: 36px; 
+}
+
+ul {
+  list-style-type: none;
+  width: 70%;
+  margin: 0px auto;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+  
+li {
+  float: left;
+  width: 25%;
+}
+  
+li a {
+  width: 100%;
+  display: block;
+  color: white;
+  font-family: KaiTi;
+  font-size: 20px;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+}
+  
+/* 当鼠标悬停时把链接颜色更改为 #00008B（蓝色） */
+li a:hover {
+  background-color: #00008B;
+}
+
+.active {
+  background-color: #00008B;
+}
+
+#keyword {
+  text-align: center;
+  font-family: STXingkai;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000080
+}
+
+video {
+  width: 50%;
+  height: auto;
+  margin: 3px 300px;
+  padding: 0px;
+}
+
+#wish {
+  text-align: center;
+  font-family: STXingkai;
+  font-size: 32px;
+  font-weight: bold;
+  color: #FF8C00
+}
+
+#footer {
+  text-align: center;
+  font-family: SimSun;
+  font-size: 12px;
+  color: gray;
+}
